@@ -1,90 +1,186 @@
-body {
-    background-color: #f3f3f3;
-}
-.container{
-  width: 820px;
-  height: 820px;
-  margin: auto;
-}
-.left{
-  display: inline-block;
-  width: 390px;
-  height: 618px;
-  padding-top: 100px;
-  padding-left: 50px;
-}
-.right-container{
-  display: inline-block;
-  width: 350px;
-  height: 750px;
-  float: right;
-  margin-top: 60px;
-}
-.boxes{
-  background: white;
-  outline: 1px solid #bfbfbf;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.transparent-box{
-  padding-bottom: 10px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.h2class{
-  font-size: 18px;
-  color: grey;
-  width: 200px;
-  margin: auto;
-  padding-bottom: 10px;
-}
-button{
-  background: #458eff;
-  font-style: bold;
-  width: 250px;
-  height: 30px;
-  font-size: 15px;
-  color: white;
-}
-input{
-  font-style: bold;
-  background: #f3f3f3;
-  color: grey;
-  width: 250px;
-  height: 30px;
-  font-size: 10px;
-  margin-bottom: 10px;
-}
-.para{
-    font-size: 15px;
+
+@media (min-width:0px){
+  body {
+      background-color: #f3f3f3;
+  }
+  .container{
+    width: 360px;
+    height: 820px;
+    margin: auto;
+  }
+  .left{
+    display: none;
+    width: 390px;
+    height: 618px;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .right-container{
+    display: inline-block;
+    width: 350px;
+    height: 750px;
+    float: right;
+    margin-top: 60px;
+  }
+  .boxes{
+    background: white;
+    outline: 1px solid #bfbfbf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .transparent-box{
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .h2class{
+    font-size: 18px;
     color: grey;
     width: 200px;
     margin: auto;
-    padding-bottom: 30px;
-    padding-top: 10px;
-}
-.footer-style{
-  width: 1000px;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  margin: auto;
-}
-.footer-text{
-    display: inline;
+    padding-bottom: 10px;
+  }
+  button{
+    background: #458eff;
+    font-style: bold;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+  }
+  input{
+    font-style: bold;
+    background: #f3f3f3;
+    color: grey;
+    width: 250px;
+    height: 30px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .para{
+      font-size: 15px;
+      color: grey;
+      width: 200px;
+      margin: auto;
+      padding-bottom: 30px;
+      padding-top: 10px;
+  }
+  .footer-style{
+    width: 360px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  .footer-text{
+      display: inline;
+      font-size: 12px;
+      padding-right: 12px;
+  }
+  nav{
+        display: inline-block;
+        padding-right: 15px;
+  }
+  span{
+    color: grey;
     font-size: 12px;
-    padding-right: 12px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
 }
-nav{
-      display: inline-block;
-      padding-right: 15px;
-}
-span{
-  color: grey;
-  font-size: 12px;
-}
-a{
-  text-decoration: none;
-  color: black;
+
+@media (min-width:1024px){
+  body {
+      background-color: #f3f3f3;
+  }
+  .container{
+    width: 820px;
+    height: 820px;
+    margin: auto;
+  }
+  .left{
+    display: inline-block;
+    width: 390px;
+    height: 618px;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+  .right-container{
+    display: inline-block;
+    width: 350px;
+    height: 750px;
+    float: right;
+    margin-top: 60px;
+  }
+  .boxes{
+    background: white;
+    outline: 1px solid #bfbfbf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .transparent-box{
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .h2class{
+    font-size: 18px;
+    color: grey;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  button{
+    background: #458eff;
+    font-style: bold;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+  }
+  input{
+    font-style: bold;
+    background: #f3f3f3;
+    color: grey;
+    width: 250px;
+    height: 30px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .para{
+      font-size: 15px;
+      color: grey;
+      width: 200px;
+      margin: auto;
+      padding-bottom: 30px;
+      padding-top: 10px;
+  }
+  .footer-style{
+    width: 1000px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  .footer-text{
+      display: inline;
+      font-size: 12px;
+      padding-right: 12px;
+  }
+  nav{
+        display: inline-block;
+        padding-right: 15px;
+  }
+  span{
+    color: grey;
+    font-size: 12px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
 }
